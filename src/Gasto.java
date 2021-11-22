@@ -7,6 +7,6 @@ public class Gasto extends Dinero{
 	}
 	
 	public String toString() {
-		return "El gasto en cocepto de: " + this.description;
+		return this.description +"\n"+ " por valor de: " + this.dinero;
 	}
 }

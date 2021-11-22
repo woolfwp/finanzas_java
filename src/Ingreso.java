@@ -7,6 +7,6 @@ public class Ingreso extends Dinero {
 	}
 	
 	public String toString() {
-		return "Ingreso en concepto de: "+ this.description;
+		return this.description +"\n"+ " por valor de: " + this.dinero;
 	}
 }
